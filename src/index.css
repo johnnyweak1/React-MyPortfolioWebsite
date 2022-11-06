@@ -1,0 +1,525 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+}
+h {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* PANELS */
+
+.panel {
+  width: 100vw;
+  min-height: 100vh;
+  display:block;
+}
+
+.panel.side {
+  width: 50%;
+  position: absolute;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  text-align: center;
+}
+
+/* FOOTER */
+
+.footer{
+  height: 100px;
+}
+
+.footer-text{
+  display:flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+/* HELLO */
+
+h1 {
+  margin-left: 8vw;
+  margin-top: 4vw;
+  margin-bottom: -4vh;
+  padding: 0;
+  font-size: 13vw;
+  font-family: 'Open Sans', sans-serif;
+  transition: 1s;
+}
+
+h2 {
+  margin-top: 0;
+  margin-left: 8vw;
+  margin-bottom: -3vh;
+  font-size: 10vw;
+  font-family: 'Open Sans', sans-serif;
+  transition: 0.7s;
+}
+
+h3{
+  margin-top: 0;
+  margin-left: 8vw;
+  font-size: 8vw;
+  font-family: 'Open Sans', sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h4{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 8vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.name{
+  position:relative;
+  z-index: 1;
+}
+
+.surname{
+  margin: 0;
+  margin-left: 7vw;
+  font-family: 'Open Sans', sans-serif;
+  transition: 1s;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  position: relative;
+  bottom: 3vw;
+  z-index: 0;
+}
+
+h1:hover{
+  font-size: 14vw;
+}
+
+h2:hover{
+  font-size: 11vw;
+}
+
+.Me:hover .surname{
+  bottom: 2vw;
+}
+
+/* NAVBAR */
+
+/* .navbar {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 14vw;
+
+} */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  background-color: white;
+  z-index: 2;
+  text-align: center;
+  display: flex;
+}
+
+.navbar .navbar-row
+{
+  float: left;
+  width: 34%;
+}
+
+.navbar-row a {
+  position: relative;
+  top: 30%;
+  -webkit-transform: translateY(-40%);
+  -ms-transform: translateY(-40%);
+  transform: translateY(-40%);
+}
+
+/* PORTFOLIO PANEL */
+.portfolio{
+  position: relative;
+  transition: 0.7s;
+  text-align: center;
+}
+.header{
+  padding-top: 70px;
+  text-align: center;
+  
+}
+.page-header{
+  font-size: 6vw;
+  transition: 0.7s;
+  display: inline-block;
+  justify-content: center;
+  
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  width: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+/* REPOS */
+
+
+.Card {
+  width: 250px;
+  height: 250px;
+  border-style: solid;
+  border-width: 9px;
+  border-radius: 5%;
+  transition: 0.5s;
+  padding-top: 3px;
+  transition-duration: 0.5s;
+  /* float: left; */
+  display: inline-block;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.CardDesc {
+  width: 250px;
+  height: 250px;
+  border-style: solid;
+  border-width: 9px;
+  border-radius: 5%;
+  transition: 0.5s;
+  padding-top: 3px;
+  transition-duration: 0.5s;
+  /* float: left; */
+  display: inline-block;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.CardTitle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #CAF0F8;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  
+}
+
+.CardBody{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #CAF0F8;
+  transition-duration: 0.5s;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+}
+
+
+h5 {
+  margin-top: 0;
+  width: 200px;
+}
+
+ul {
+  color: #03045E;
+  padding: 0;
+  list-style: none;
+}
+
+.GitButton{
+  color: #CAF0F8;
+  background-color: #03045E;
+  border: 0;
+  border-radius: 8%;
+  width: 100px;
+  height: 50px;
+  transition-duration: 0.5s;
+  position: relative;
+  top: 50px;
+}
+.GitButtonMouse {
+  color: #03045E;
+  background-color: white;
+  border: 0;
+  border-radius: 8%;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  position: relative;
+  top: 50px;
+}
+
+
+.ReposTable{
+  display: inline-block; 
+  max-width: 90vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 1rem;
+}
+
+
+
+/* COLORS */
+
+/* DATA SCIENCE */
+
+#DS .left {
+  background-color: #CAF0F8;
+  transition: 0.7s;
+}
+
+#DS .right {
+  background-color: #90E0EF;
+  transition: 0.7s;
+}
+
+#DS h1, #DS h2 {
+  color: #00b4d8;
+  transition: 0.7s;
+}
+#DS h1:hover, #DS h2:hover {
+  color: #03045E;
+  transition: 0.7s;
+}
+
+#DS h3, #DS h4 {
+  color: #03045E;
+  transition: 0.7s;
+}
+
+#DS .surname {
+  color: #CAF0F8;
+  transition: 0.7s;
+}
+#DS .Me:hover .surname{
+  color:  #03045E;
+  transition: 0.7s;
+}
+
+#DS .portfolio {
+  background-color: #03045E;
+  transition: 0.7s;
+}
+
+#DS .footer {
+  background-color: #90E0EF;
+  transition: 0.7s;
+}
+
+#DS .page-header{
+  color: white;
+  transition: 0.7s;
+}
+
+#DS .navbar{
+  background-color: #01005E;
+  color: white;
+  -webkit-box-shadow: 0px 1px 41px 2px rgba(0, 180, 216, 1);
+  -moz-box-shadow: 0px 1px 41px 2px rgba(0, 180, 216, 1);
+  box-shadow: 0px 1px 41px 2px rgba(0, 180, 216, 1);
+  transition: 0.3s;
+}
+
+#DS .navbar-row:hover {
+  background-color: #00b4d8;
+  transition: 0.3s;
+}
+
+#DS .Card {
+  -webkit-box-shadow: 0px 20px 69px -22px rgba(0, 180, 216, 1);
+  -moz-box-shadow: 0px 20px 69px -22px rgba(0, 180, 216, 1);
+  box-shadow: 0px 20px 69px -22px rgba(0, 180, 216, 1); 
+  background-color: #00B4D8;
+  border-color: #CAF0F8;
+}
+
+#DS .CardDesc {
+  background-color: #90E0EF;
+  border-color: white;
+}
+
+/* PYTHON */
+
+#python .left {
+  background-color: #17B794;
+  transition: 0.7s;
+}
+
+#python .right {
+  background-color: #28518A;
+  transition: 0.7s;
+}
+
+#python h1, #python h2 {
+  color: #28518A;
+  transition: 0.7s;
+}
+#python h1:hover, #python h2:hover {
+  color: #22267B;
+  transition: 0.7s;
+}
+
+#python h3, #python h4 {
+  color: #01005E;
+  transition: 0.7s;
+}
+
+#python .surname {
+  color: #17B794;
+  transition: 0.7s;
+}
+#python .Me:hover .surname{
+  color:  #03045E;
+  transition: 0.7s;
+}
+
+#python .portfolio {
+  background-color: #22267B;
+  transition: 0.7s;
+}
+
+#python .footer {
+  background-color: #17B794;
+  transition: 0.7s;
+}
+
+#python .page-header{
+  color: white;
+  transition: 0.7s;
+}
+
+#python .navbar{
+  background-color: #01005E;
+  color: white;
+  -webkit-box-shadow: 0px 1px 41px 2px rgba(23, 183, 148, 1);
+  -moz-box-shadow: 0px 1px 41px 2px rgba(23, 183, 148, 1);
+  box-shadow: 0px 1px 41px 2px rgba(23, 183, 148, 1);
+  transition: 0.3s;
+}
+
+#python .navbar-row:hover {
+  background-color: #17B794;
+  transition: 0.3s;
+}
+
+#python .Card {
+  background-color: #01005E;
+  border-color: #28518A;
+  -webkit-box-shadow: 0px 20px 56px -22px rgba(23, 183, 148, 1);
+  -moz-box-shadow: 0px 20px 56px -22px rgba(23, 183, 148, 1);
+  box-shadow: 0px 20px 56px -22px rgba(23, 183, 148, 1);
+
+}
+
+#python .CardDesc {
+  background-color: #22267B;
+  border-color: #17B794;
+}
+
+
+/* WEB DEVELOPMENT */
+
+#WD .left {
+  background-color: #D22779;
+  transition: 0.7s;
+}
+
+#WD .right {
+  background-color: #612897;
+  transition: 0.7s;
+}
+
+#WD h1, #WD h2 {
+  color: #612897;
+  transition: 0.7s;
+}
+#WD h1:hover, #WD h2:hover {
+  color: #0C1E7F;
+  transition: 0.7s;
+}
+
+#WD h3, #WD h4 {
+  color: #0C1E7F;
+  transition: 0.7s;
+}
+
+#WD .surname {
+  color: #D22779;
+  transition: 0.7s;
+}
+#WD .Me:hover .surname{
+  color:  #0C1E7F;
+  transition: 0.7s;
+}
+
+#WD .portfolio {
+  background-color: #3E065F;
+  transition: 0.7s;
+}
+
+#WD .footer {
+  background-color: #D22779;
+  transition: 0.7s;
+}
+
+#WD .page-header{
+  color: white;
+  transition: 0.7s;
+}
+
+#WD .navbar{
+  background-color: #612897;
+  color: white;
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 1px 41px 2px rgba(255, 0, 142, 1);
+  -moz-box-shadow: 0px 1px 41px 2px rgba(255, 0, 142, 1);
+  box-shadow: 0px 1px 41px 2px rgba(255, 0, 142, 1);
+}
+
+#WD .navbar-row:hover {
+  background-color: #FF008E;
+  transition: 0.3s;
+}
+
+#WD .Card {
+  background-color: #612897;
+  border-color: #D22779;
+  -webkit-box-shadow: 0px 20px 56px -22px rgba(255, 0, 142, 1);
+  -moz-box-shadow: 0px 20px 56px -22px rgba(255, 0, 142, 1);
+  box-shadow: 0px 20px 56px -22px rgba(255, 0, 142, 1);
+
+}
+
+#WD .CardDesc {
+  background-color: #D22779;
+  border-color: #612897;
+}
+
+
+
