@@ -156,6 +156,8 @@ h2:hover{
   transition: 0.7s;
   display: inline-block;
   justify-content: center;
+  margin-left: 0;
+  margin-bottom: 2vh;
   
 }
 
