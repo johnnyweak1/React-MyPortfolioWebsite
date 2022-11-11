@@ -116,14 +116,6 @@ h2:hover{
   bottom: 2vw;
 }
 
-/* NAVBAR */
-
-/* .navbar {
-  display: inline-block;
-  list-style-type: none;
-  margin-top: 14vw;
-
-} */
 
 .navbar {
   position: sticky;

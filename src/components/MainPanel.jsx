@@ -9,7 +9,6 @@ function MainPanel()
                 <Hello/>
             </div>
             <div className="panel side right">
-                {/* <Navbar /> */}
                 
             </div>
         </div>
