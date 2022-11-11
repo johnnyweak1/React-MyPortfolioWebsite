@@ -55,10 +55,10 @@ h1 {
 
 @media(min-height: 900px) and (min-width: 1900px) {
   h1 {
-    margin-bottom: -10rem;
+    margin-bottom: -5rem;
   }
   h2 {
-    margin-bottom: -10rem;
+    margin-bottom: -5rem;
   }
 }
 h2 {
