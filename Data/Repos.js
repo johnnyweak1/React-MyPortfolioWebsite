@@ -56,6 +56,12 @@ var Repos = [
             description: "App for keeping notes based on Goggle Keep",
             link: "https://github.com/johnnyweak1/React-KeeperApp",
             technologies: ["React", "Html", "CSS", "JavaScript"]
+        },
+        WeakCoin: {
+            title: "WeakCoin",
+            description: "Website with cryptocurrency prices based on Coingecko API.",
+            link: "https://github.com/johnnyweak1/React-CryptoPriceTracker",
+            technologies: ["Axios", "React"]
         }
     },
     {
