@@ -30,6 +30,12 @@ var Repos = [
             description: "App which gets house prices from Zillow and writes it to google forms",
             link: "https://github.com/johnnyweak1/WebScraping-HousePrices-DataEntry-Automation",
             technologies: ["Requests", "Beautiful Soup","Selenium" ]
+        },
+        Snake: {
+            title: "Snake Desktop Game",
+            description: "Desktop version of snake game made in object oriented programming using tkinter library",
+            link: "https://github.com/johnnyweak1/Python-SnakeGame",
+            technologies: ["Python", "Tkinter"]
         }
     },
         {
