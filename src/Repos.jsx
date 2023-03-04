@@ -1,6 +1,18 @@
 
 var Repos = [
     {
+        Snake: {
+            title: "Snake Desktop Game",
+            description: "Desktop version of snake game made in object oriented programming using tkinter library",
+            link: "https://github.com/johnnyweak1/Python-SnakeGame",
+            technologies: ["Python", "Tkinter"]
+        },
+        SudokuSolver: {
+            title: "Sudoku Solver",
+            description: "Sudoku Solver desktop app based on backtracking algorithm.",
+            link: "https://github.com/johnnyweak1/GUI-SudokuSolver",
+            technologies: ["Python", "Tkinter"]
+        },
         Pomodoro: {
             title: "Pomodoro App",
             description: " App inspired by Pomodoro Technique which is a time management method developed by Francesco Cirillo.",
@@ -31,12 +43,7 @@ var Repos = [
             link: "https://github.com/johnnyweak1/WebScraping-HousePrices-DataEntry-Automation",
             technologies: ["Requests", "Beautiful Soup","Selenium" ]
         },
-        Snake: {
-            title: "Snake Desktop Game",
-            description: "Desktop version of snake game made in object oriented programming using tkinter library",
-            link: "https://github.com/johnnyweak1/Python-SnakeGame",
-            technologies: ["Python", "Tkinter"]
-        }
+        
     },
         {
         Tindog: {
@@ -47,7 +54,7 @@ var Repos = [
         },
         SimonGame: {
             title: "Simon Game",
-            description: "Game where you choose right colors in random order",
+            descrition: "Game where you choose right colors in random order.",
             link: "https://github.com/johnnyweak1/HtmlCssJsScripting-SimonGame",
             technologies: ["Html", "CSS", "JavaScript"]
         },
@@ -59,7 +66,7 @@ var Repos = [
         },
         Keeper: {
             title: "Keeper",
-            description: "App for keeping notes based on Goggle Keeper",
+            description: "App for keeping notes based on Goggle Keep",
             link: "https://github.com/johnnyweak1/React-KeeperApp",
             technologies: ["React", "Html", "CSS", "JavaScript"]
         },
