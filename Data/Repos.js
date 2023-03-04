@@ -1,6 +1,18 @@
 
 var Repos = [
     {
+        Snake: {
+            title: "Snake Desktop Game",
+            description: "Desktop version of snake game made in object oriented programming using tkinter library",
+            link: "https://github.com/johnnyweak1/Python-SnakeGame",
+            technologies: ["Python", "Tkinter"]
+        },
+        SudokuSolver: {
+            title: "Sudoku Solver",
+            description: "Sudoku Solver desktop app based on backtracking algorithm.",
+            link: "https://github.com/johnnyweak1/GUI-SudokuSolver",
+            technologies: ["Python", "Tkinter"]
+        },
         Pomodoro: {
             title: "Pomodoro App",
             description: " App inspired by Pomodoro Technique which is a time management method developed by Francesco Cirillo.",
@@ -31,12 +43,7 @@ var Repos = [
             link: "https://github.com/johnnyweak1/WebScraping-HousePrices-DataEntry-Automation",
             technologies: ["Requests", "Beautiful Soup","Selenium" ]
         },
-        Snake: {
-            title: "Snake Desktop Game",
-            description: "Desktop version of snake game made in object oriented programming using tkinter library",
-            link: "https://github.com/johnnyweak1/Python-SnakeGame",
-            technologies: ["Python", "Tkinter"]
-        }
+        
     },
         {
         Tindog: {
